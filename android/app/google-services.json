@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82323424969",
+    "project_id": "blogiumapp-cd5d9",
+    "storage_bucket": "blogiumapp-cd5d9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82323424969:android:56f366fa0ea609ed3a6f18",
+        "android_client_info": {
+          "package_name": "com.blogium.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0FliVYq5jL6wXLbEADxQtZ7MVA8STEtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
