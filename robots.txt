@@ -1,0 +1,63 @@
+# ===================================================================
+# Web sitenizi ziyaret eden tüm arama motoru botları için genel kurallar
+# ===================================================================
+User-agent: *
+
+# İzin verilmeyen (taranmaması gereken) dizinler ve dosyalar:
+# Bu alanlar, yönetim paneli, hassas dosyalar, kullanıcıya özel içerikler
+# ve arama sonuçlarında görünmesi gerekmeyen teknik klasörleri içerir.
+Disallow: /adminpanel/
+Disallow: /includes/
+Disallow: /vendor/
+Disallow: /cache/
+Disallow: /cgi-bin/
+Disallow: /assets/js/
+Disallow: /.well-known/
+
+# Belirli PHP dosyalarının taranmasını engelle
+Disallow: /signin.php
+Disallow: /signup.php
+Disallow: /logout.php
+Disallow: /account_settings.php
+Disallow: /forgot_password.php
+Disallow: /reset_password.php
+Disallow: /delete_account.php
+Disallow: /comment_add.php
+Disallow: /handle_comment.php
+Disallow: /handle_like.php
+Disallow: /handle_save.php
+Disallow: /save_subscription.php
+Disallow: /verify_email.php
+
+# Teknik ve yapılandırma dosyalarını engelle
+Disallow: /.ftpquota
+Disallow: /.htaccess
+Disallow: /.user.ini
+Disallow: /php.ini
+Disallow: /error_log
+Disallow: /composer.json
+Disallow: /composer.lock
+
+# Arama sonuçları sayfasının taranmasını engelle (yinelenen içerik sorununu önlemek için)
+Disallow: /search.php
+
+# ===================================================================
+# Taranmasına İzin Verilen Alanlar
+# ===================================================================
+# Genel olarak her şeye izin verildikten sonra sadece belirli dosyaların
+# taranmasını engellemek daha yaygın bir yaklaşımdır.
+# Ancak, özellikle bir alt klasörü engellediyseniz ve içinden bir şeye
+# izin vermek isterseniz 'Allow' kullanabilirsiniz.
+# Örneğin, /assets/ klasörünü tamamen engelleseydik ama css'e izin vermek
+# isteseydik şöyle yapardık:
+# Allow: /assets/css/
+Allow: /logo.png
+# ===================================================================
+# Site Haritaları (Sitemaps)
+# ===================================================================
+# Arama motorlarına sitenizin yapısı hakkında bilgi veren XML site haritanızın
+# tam yolunu belirtin. Bu, içeriğinizin daha verimli bir şekilde
+# keşfedilmesine ve dizine eklenmesine yardımcı olur.
+# "sitemap.php" dosyanızın bir XML çıktısı ürettiğini varsayarak:
+
+Sitemap: https://www.blogium.net/sitemap.xml

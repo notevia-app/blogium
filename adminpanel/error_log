@@ -1,0 +1,510 @@
+[16-Jul-2025 03:43:34 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'SELECT' in /home/blo217mnet/public_html/adminpanel/sitemap_generator.php:12
+Stack trace:
+#0 /home/blo217mnet/public_html/adminpanel/sitemap_generator.php(12): PDO->query('SELECT slug, up...')
+#1 {main}
+  thrown in /home/blo217mnet/public_html/adminpanel/sitemap_generator.php on line 12
+[16-Jul-2025 03:43:39 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'SELECT' in /home/blo217mnet/public_html/adminpanel/sitemap_generator.php:12
+Stack trace:
+#0 /home/blo217mnet/public_html/adminpanel/sitemap_generator.php(12): PDO->query('SELECT slug, up...')
+#1 {main}
+  thrown in /home/blo217mnet/public_html/adminpanel/sitemap_generator.php on line 12
+[16-Jul-2025 11:17:34 UTC] PHP Warning:  require(menu.php): Failed to open stream: No such file or directory in /home/blo217mnet/public_html/adminpanel/manage_images.php on line 188
+[16-Jul-2025 11:17:34 UTC] PHP Warning:  require(menu.php): Failed to open stream: No such file or directory in /home/blo217mnet/public_html/adminpanel/manage_images.php on line 188
+[16-Jul-2025 11:17:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'menu.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/blo217mnet/public_html/adminpanel/manage_images.php:188
+Stack trace:
+#0 {main}
+  thrown in /home/blo217mnet/public_html/adminpanel/manage_images.php on line 188
+[03-Aug-2025 19:38:37 Europe/Istanbul] PHP Warning:  require_once(/home/blo217mnet/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/blo217mnet/public_html/api/send_notification.php on line 8
+[03-Aug-2025 19:38:37 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Failed opening required '/home/blo217mnet/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/blo217mnet/public_html/api/send_notification.php:8
+Stack trace:
+#0 /home/blo217mnet/public_html/adminpanel/add_post.php(140): require_once()
+#1 {main}
+  thrown in /home/blo217mnet/public_html/api/send_notification.php on line 8
+[03-Aug-2025 19:43:09 Europe/Istanbul] PHP Warning:  require(/home/blo217mnet/vendor/composer/../../src/aliases.php): Failed to open stream: No such file or directory in /home/blo217mnet/vendor/composer/autoload_real.php on line 41
+[03-Aug-2025 19:43:09 Europe/Istanbul] PHP Warning:  require(/home/blo217mnet/vendor/composer/../../src/aliases.php): Failed to open stream: No such file or directory in /home/blo217mnet/vendor/composer/autoload_real.php on line 41
+[03-Aug-2025 19:43:09 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Failed opening required '/home/blo217mnet/vendor/composer/../../src/aliases.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/blo217mnet/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/blo217mnet/vendor/composer/autoload_real.php(45): {closure}('a8d3953fd995940...', '/home/blo217mne...')
+#1 /home/blo217mnet/vendor/autoload.php(25): ComposerAutoloaderInitbd131085cfdbf47b26d7ae00fe412ae4::getLoader()
+#2 /home/blo217mnet/public_html/api/send_notification.php(7): require_once('/home/blo217mne...')
+#3 /home/blo217mnet/public_html/adminpanel/add_post.php(140): require_once('/home/blo217mne...')
+#4 {main}
+  thrown in /home/blo217mnet/vendor/composer/autoload_real.php on line 41
+[03-Aug-2025 19:47:58 Europe/Istanbul] FCM Send Error for token cfba6DXSQkSiGvfOFPU4t_:APA91bE8AhJ7-nHkb0Za5PKbT_gmTJEtsg3PEehN0MYyCo961pbvZmuuLxQVSmsH2U2_aVUyx3yUXJmZQEg-Uw6E4YLv--Az8R1_ppo3xFpJ_DyRgkWoi1U: {
+  "error": {
+    "code": 403,
+    "message": "Permission denied on resource project blogium-58356.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CONSUMER_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "fcm.googleapis.com",
+          "consumer": "projects/blogium-58356",
+          "containerInfo": "blogium-58356"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "Permission denied on resource project blogium-58356."
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Google developers console",
+            "url": "https://console.developers.google.com"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+[03-Aug-2025 20:22:37 Europe/Istanbul] FCM Send Error for token dLtJPH_5QdGh0C_kecIrJF:APA91bFZb-HfrNzDWcaRrO9wH3jlE92LiLwUELb-gGbYYkqGYwonLCAlGexSVm-nLofDGzZf42LuBXlRxQo0TLGrSs9kbVuM9Hfzsae1wSA8wwzl_BuQxWg: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[03-Aug-2025 20:22:37 Europe/Istanbul] FCM Send Error for token dw2RVFg4RuKjZ4-EhFY3jg:APA91bEzVWaPz2CRW2qk7c_DE9Vsp94OOmbV9vRrPHOeJXpuicsZRfk9suFmqO7_B07gz0YVVwl7kr2og4dO2-sxgl3rOB078Ex5voTeIJwqr3Ho0tSzFDU: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[03-Aug-2025 20:25:35 Europe/Istanbul] FCM Send Error for token dLtJPH_5QdGh0C_kecIrJF:APA91bFZb-HfrNzDWcaRrO9wH3jlE92LiLwUELb-gGbYYkqGYwonLCAlGexSVm-nLofDGzZf42LuBXlRxQo0TLGrSs9kbVuM9Hfzsae1wSA8wwzl_BuQxWg: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[03-Aug-2025 20:25:35 Europe/Istanbul] FCM Send Error for token dw2RVFg4RuKjZ4-EhFY3jg:APA91bEzVWaPz2CRW2qk7c_DE9Vsp94OOmbV9vRrPHOeJXpuicsZRfk9suFmqO7_B07gz0YVVwl7kr2og4dO2-sxgl3rOB078Ex5voTeIJwqr3Ho0tSzFDU: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[03-Aug-2025 20:31:08 Europe/Istanbul] FCM Send Error for token dLtJPH_5QdGh0C_kecIrJF:APA91bFZb-HfrNzDWcaRrO9wH3jlE92LiLwUELb-gGbYYkqGYwonLCAlGexSVm-nLofDGzZf42LuBXlRxQo0TLGrSs9kbVuM9Hfzsae1wSA8wwzl_BuQxWg: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[03-Aug-2025 20:31:08 Europe/Istanbul] FCM Send Error for token dw2RVFg4RuKjZ4-EhFY3jg:APA91bEzVWaPz2CRW2qk7c_DE9Vsp94OOmbV9vRrPHOeJXpuicsZRfk9suFmqO7_B07gz0YVVwl7kr2og4dO2-sxgl3rOB078Ex5voTeIJwqr3Ho0tSzFDU: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[05-Aug-2025 17:06:00 Europe/Istanbul] FCM Send Error for token cfba6DXSQkSiGvfOFPU4t_:APA91bE8AhJ7-nHkb0Za5PKbT_gmTJEtsg3PEehN0MYyCo961pbvZmuuLxQVSmsH2U2_aVUyx3yUXJmZQEg-Uw6E4YLv--Az8R1_ppo3xFpJ_DyRgkWoi1U: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[05-Aug-2025 17:06:00 Europe/Istanbul] FCM Send Error for token dLtJPH_5QdGh0C_kecIrJF:APA91bFZb-HfrNzDWcaRrO9wH3jlE92LiLwUELb-gGbYYkqGYwonLCAlGexSVm-nLofDGzZf42LuBXlRxQo0TLGrSs9kbVuM9Hfzsae1wSA8wwzl_BuQxWg: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[05-Aug-2025 17:06:00 Europe/Istanbul] FCM Send Error for token dw2RVFg4RuKjZ4-EhFY3jg:APA91bEzVWaPz2CRW2qk7c_DE9Vsp94OOmbV9vRrPHOeJXpuicsZRfk9suFmqO7_B07gz0YVVwl7kr2og4dO2-sxgl3rOB078Ex5voTeIJwqr3Ho0tSzFDU: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[05-Aug-2025 17:06:00 Europe/Istanbul] FCM Send Error for token ftpXzibyQoC6DDmhzXlaWs:APA91bFl6Yu8pI6RYGk9jQdIirlfRy_WKmR_bKxrqWd4DsfWHJnOGlDg2O4miaLE5iEMBbSNk5PV3wlpuMk-8Vpgi9X9gqH_UBoPJ1b2G72iVyQwdftzAcI: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[05-Aug-2025 17:06:01 Europe/Istanbul] FCM Send Error for token fDiMQmo2RD-l8lij5kTcXZ:APA91bGoU9q1-Jsv3LqImHiBwciC3_x47eswRKIkoaRRt7kMSDY8LNMqdYPJcrmRM-5C8miOoI4Vqpv34yEbTxGMr1qPjm8Q3yo-11XEPn17atJ1HrhYm6E: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[05-Aug-2025 17:06:01 Europe/Istanbul] FCM Send Error for token fqkhZGn1RpOOwcPYfhqb0Y:APA91bEf8cWRdEWslyT87QFR01LzhwJwSRO9VUD4ED09lVC4BGZedy8XJXKDM0nyMwyrji1UbLutd67yQrpIrZ1kVXSyHvs4ADq13FF5l9zoQOuEuVGlz8s: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[05-Aug-2025 17:06:02 Europe/Istanbul] FCM Send Error for token fUf4hPeZQPCK70xGpxIdab:APA91bHNAza2NI6Y0WaV6yMsznSLd6Zh6tadx5vnACE8AoLjwRm_MoPYq_z3Dwe-lzADuWp2exOifvtuFczAygp2fnbKRaqAxtylQBMfBH5r8C1tW2XA5Q0: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[30-Aug-2025 12:30:01 Europe/Istanbul] FCM Send Error for token c-45gCU8RnusDkE9keWqH9:APA91bHPiV5STzn4N2qRIknYUYpcctrS2Q3UJBZ8gFN1PPv_E-zjqd0nGbzlurnd8EEFBsZW2Vo-fobUadg29DKCfcC9o86m-5vKPwt3aIONm0coJGILTTo: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[30-Aug-2025 12:30:02 Europe/Istanbul] FCM Send Error for token cC0Eh_Y2Q4WmQYF7PB8oTF:APA91bHta3hHgGV7_KO016Bo0NTO3c4C5zKMnch1FQ0K5_wn2TEzjb-uv26TgOZtmG2yEWnkSzRZmAyxhyNwfHrZE632phtUcu6ORirwb4lCY08GHmwY_Fc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[30-Aug-2025 12:30:02 Europe/Istanbul] FCM Send Error for token cXT7ewnzRF6ddZPOrPq87E:APA91bEsjqR4xNNvA6zNpsIIKCAcJo-CLgx1GPccDPTuwxQhgP-UG9Yrz8Gs-rB4GyoX0hOTL1cvCd33Wn8awxx29FnBcqM7kX7iYZgafWlBEqXb1r7SlZc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[30-Aug-2025 12:39:09 Europe/Istanbul] FCM Send Error for token c-45gCU8RnusDkE9keWqH9:APA91bHPiV5STzn4N2qRIknYUYpcctrS2Q3UJBZ8gFN1PPv_E-zjqd0nGbzlurnd8EEFBsZW2Vo-fobUadg29DKCfcC9o86m-5vKPwt3aIONm0coJGILTTo: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[30-Aug-2025 12:39:09 Europe/Istanbul] FCM Send Error for token cC0Eh_Y2Q4WmQYF7PB8oTF:APA91bHta3hHgGV7_KO016Bo0NTO3c4C5zKMnch1FQ0K5_wn2TEzjb-uv26TgOZtmG2yEWnkSzRZmAyxhyNwfHrZE632phtUcu6ORirwb4lCY08GHmwY_Fc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[30-Aug-2025 12:39:09 Europe/Istanbul] FCM Send Error for token cXT7ewnzRF6ddZPOrPq87E:APA91bEsjqR4xNNvA6zNpsIIKCAcJo-CLgx1GPccDPTuwxQhgP-UG9Yrz8Gs-rB4GyoX0hOTL1cvCd33Wn8awxx29FnBcqM7kX7iYZgafWlBEqXb1r7SlZc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[31-Aug-2025 11:57:48 Europe/Istanbul] FCM Send Error for token c-45gCU8RnusDkE9keWqH9:APA91bHPiV5STzn4N2qRIknYUYpcctrS2Q3UJBZ8gFN1PPv_E-zjqd0nGbzlurnd8EEFBsZW2Vo-fobUadg29DKCfcC9o86m-5vKPwt3aIONm0coJGILTTo: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[31-Aug-2025 11:57:49 Europe/Istanbul] FCM Send Error for token cC0Eh_Y2Q4WmQYF7PB8oTF:APA91bHta3hHgGV7_KO016Bo0NTO3c4C5zKMnch1FQ0K5_wn2TEzjb-uv26TgOZtmG2yEWnkSzRZmAyxhyNwfHrZE632phtUcu6ORirwb4lCY08GHmwY_Fc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[31-Aug-2025 11:57:49 Europe/Istanbul] FCM Send Error for token cXT7ewnzRF6ddZPOrPq87E:APA91bEsjqR4xNNvA6zNpsIIKCAcJo-CLgx1GPccDPTuwxQhgP-UG9Yrz8Gs-rB4GyoX0hOTL1cvCd33Wn8awxx29FnBcqM7kX7iYZgafWlBEqXb1r7SlZc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[03-Sep-2025 00:20:22 Europe/Istanbul] FCM Send Error for token c-45gCU8RnusDkE9keWqH9:APA91bHPiV5STzn4N2qRIknYUYpcctrS2Q3UJBZ8gFN1PPv_E-zjqd0nGbzlurnd8EEFBsZW2Vo-fobUadg29DKCfcC9o86m-5vKPwt3aIONm0coJGILTTo: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[03-Sep-2025 00:20:22 Europe/Istanbul] FCM Send Error for token cC0Eh_Y2Q4WmQYF7PB8oTF:APA91bHta3hHgGV7_KO016Bo0NTO3c4C5zKMnch1FQ0K5_wn2TEzjb-uv26TgOZtmG2yEWnkSzRZmAyxhyNwfHrZE632phtUcu6ORirwb4lCY08GHmwY_Fc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[03-Sep-2025 00:20:23 Europe/Istanbul] FCM Send Error for token cXT7ewnzRF6ddZPOrPq87E:APA91bEsjqR4xNNvA6zNpsIIKCAcJo-CLgx1GPccDPTuwxQhgP-UG9Yrz8Gs-rB4GyoX0hOTL1cvCd33Wn8awxx29FnBcqM7kX7iYZgafWlBEqXb1r7SlZc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[31-Jan-2026 23:15:43 Europe/Istanbul] FCM Send Error for token c-45gCU8RnusDkE9keWqH9:APA91bHPiV5STzn4N2qRIknYUYpcctrS2Q3UJBZ8gFN1PPv_E-zjqd0nGbzlurnd8EEFBsZW2Vo-fobUadg29DKCfcC9o86m-5vKPwt3aIONm0coJGILTTo: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[31-Jan-2026 23:15:44 Europe/Istanbul] FCM Send Error for token cC0Eh_Y2Q4WmQYF7PB8oTF:APA91bHta3hHgGV7_KO016Bo0NTO3c4C5zKMnch1FQ0K5_wn2TEzjb-uv26TgOZtmG2yEWnkSzRZmAyxhyNwfHrZE632phtUcu6ORirwb4lCY08GHmwY_Fc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[31-Jan-2026 23:15:45 Europe/Istanbul] FCM Send Error for token cXT7ewnzRF6ddZPOrPq87E:APA91bEsjqR4xNNvA6zNpsIIKCAcJo-CLgx1GPccDPTuwxQhgP-UG9Yrz8Gs-rB4GyoX0hOTL1cvCd33Wn8awxx29FnBcqM7kX7iYZgafWlBEqXb1r7SlZc: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[31-Jan-2026 23:15:45 Europe/Istanbul] FCM Send Error for token eDK1bJ7lRM63c3t4mdQae9:APA91bEN-9o5xvAvGFCT5gkEQetLLs8YsoC3PQU0SjLrJLw8bNX075g9B1CTROJ5I3Zt2oY-XFCgqnEwhE8SbnRji4E3pB2z4M27u_DOLAk6DWKS0OSbjpY: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[01-Feb-2026 03:39:31 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 25
+[01-Feb-2026 03:39:31 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:39:56 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 25
+[01-Feb-2026 03:39:56 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:40:03 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 25
+[01-Feb-2026 03:40:03 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:40:28 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 25
+[01-Feb-2026 03:40:28 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:40:42 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 25
+[01-Feb-2026 03:40:42 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:41:14 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 25
+[01-Feb-2026 03:41:14 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:41:30 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 25
+[01-Feb-2026 03:41:30 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:41:38 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 25
+[01-Feb-2026 03:41:38 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:44:42 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:44:42 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 27
+[01-Feb-2026 03:44:54 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:44:54 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 27
+[01-Feb-2026 03:45:00 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:45:00 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 27
+[01-Feb-2026 03:45:05 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 26
+[01-Feb-2026 03:45:05 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 27
+[01-Feb-2026 03:46:07 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/add_page.php on line 17
+[01-Feb-2026 03:46:07 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/add_page.php on line 18
+[01-Feb-2026 03:48:33 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 29
+[01-Feb-2026 03:48:33 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 30
+[01-Feb-2026 03:48:38 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 29
+[01-Feb-2026 03:48:38 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 30
+[01-Feb-2026 03:48:58 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 29
+[01-Feb-2026 03:48:58 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 30
+[01-Feb-2026 03:50:41 Europe/Istanbul] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 10 in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 29
+[01-Feb-2026 03:50:41 Europe/Istanbul] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_page.php on line 30
+[01-Feb-2026 03:54:57 Europe/Istanbul] PHP Warning:  Undefined array key "meta_title" in /home/blo217mnet/public_html/adminpanel/edit_post.php on line 29
+[01-Feb-2026 03:54:57 Europe/Istanbul] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_post.php on line 29
+[01-Feb-2026 03:54:57 Europe/Istanbul] PHP Warning:  Undefined array key "meta_desc" in /home/blo217mnet/public_html/adminpanel/edit_post.php on line 30
+[01-Feb-2026 03:54:57 Europe/Istanbul] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/blo217mnet/public_html/adminpanel/edit_post.php on line 30

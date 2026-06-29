@@ -1,0 +1,12 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.blogium.app",
+    "sha256_cert_fingerprints": [
+      "48:80:07:B8:C4:40:B3:2A:BD:47:BA:69:DC:44:60:EA:11:0D:FF:CF:A7:6D:4E:4A:57:D3:16:62:4D:7C:DA:4A",
+      "AA:FF:91:D2:45:8C:CF:2B:6E:21:B2:29:15:ED:FB:DE:80:29:6C:44:60:95:3F:E0:29:28:E2:ED:D9:17:55:77",
+      "8C:19:56:60:19:76:E9:32:28:DE:FD:14:B3:09:36:D8:EB:B0:00:AF:E8:45:6F:EC:E0:05:4B:F6:70:4A:41:8D"
+    ]
+  }
+}]
